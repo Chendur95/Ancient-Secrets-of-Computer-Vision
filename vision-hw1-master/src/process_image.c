@@ -86,7 +86,6 @@ void clamp_image(image im)
 	}
 }
 
-
 // These might be handy
 float three_way_max(float a, float b, float c)
 {
