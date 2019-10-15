@@ -285,7 +285,7 @@ image *sobel_image(image im)
 image colorize_sobel(image im)
 {
     // TODO
-    image *images = sobel(im);
+    image *images = sobel_image(im);
     image magnitude = images[0];
     image direction = images[1];
     feature_normalize(magnitude);
